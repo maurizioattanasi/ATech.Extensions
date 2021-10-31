@@ -1,2 +1,9 @@
 # ATech.Extensions
-.NET/C# Extension methods
+
+This package contains a set of C# method extensions 
+
+## DateTime etensions
+
+## Enum extensions
+
+## String extensions
