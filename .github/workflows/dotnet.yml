@@ -1,4 +1,4 @@
-name: ATech Nuget Packages
+name: Publish to NuGet
 
 on:
   push:
