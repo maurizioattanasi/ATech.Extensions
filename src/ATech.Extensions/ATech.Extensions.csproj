@@ -3,11 +3,15 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <Authors>Maurizio Attanasi</Authors>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Description>C# Extension Methods</Description>
-    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <PackageReleaseNotes>Added ILogger extension</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/maurizioattanasi/ATech.Extensions</PackageProjectUrl>
     <Copyright>Maurizio Attanasi</Copyright>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+  </ItemGroup>
 
 </Project>
