@@ -62,6 +62,16 @@ namespace ATech.Extensions
         }
 
         /// <summary>
+        /// Checks if the string is a valid http address (ipv4 or localhost only)
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        public static bool IsHttpAddress(this string str)
+        {
+            return Regex.Match(str.ToLower(), @"^(http|https)(:\/\/)((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|localhost)$").Success;
+        }
+
+        /// <summary>
         /// Returns a MemoryStream from a given object
         /// </summary>
         /// <param name="str">The string to process</param>
