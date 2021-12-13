@@ -1,7 +1,6 @@
-using Microsoft.Extensions.Logging;
 using System;
 
-namespace ATech.Extensions
+namespace Microsoft.Extensions.Logging
 {
     public static class LoggerExtensions
     {

@@ -3,9 +3,9 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Authors>Maurizio Attanasi</Authors>
-    <Version>0.2.1</Version>
+    <Version>0.2.2</Version>
     <Description>C# Extension Methods</Description>
-    <PackageReleaseNotes>Added IsHttpAddress to string extensions</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed Microsoft logger namespace</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/maurizioattanasi/ATech.Extensions</PackageProjectUrl>
     <Copyright>Maurizio Attanasi</Copyright>
   </PropertyGroup>
